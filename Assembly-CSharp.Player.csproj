@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ED1C0F71-861F-3EFF-B824-3DF2E82A90CA}</ProjectGuid>
+    <ProjectGuid>{7A0E7240-602C-280C-09F9-04E72EA6C82C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,9 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Marker\Permissions.cs" />
     <Compile Include="Assets\Marker\TrackedImageInfoMultipleManager.cs" />
-    <Compile Include="Assets\Marker\MarkerDetector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -648,83 +646,83 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{723B739C-BBA4-ED30-DB20-F3A3A417DF74}</Project>
+      <Project>{7701353F-F43B-424A-247A-D0C2DBFC0320}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{967CB614-0223-B390-3F8D-059950CAFB6E}</Project>
+      <Project>{FBD2B513-69E4-2E82-81C1-F2081DC6E42B}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{2AA30976-C4B4-4B8B-241F-B5D708705593}</Project>
+      <Project>{3C83FFE8-E755-8655-F81D-D794A28E97AB}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj">
-      <Project>{C6C9751C-431D-6C3C-18C5-76D0316B2C6C}</Project>
+      <Project>{CA80E55D-79C0-B8A6-6D25-B289248BAB78}</Project>
       <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.InteractionSubsystems.Player.csproj">
-      <Project>{61FA9E35-6899-1F15-85E3-3372DD4E041F}</Project>
+      <Project>{6AFBBF4D-0767-D472-8853-07A5BE8107D5}</Project>
       <Name>Unity.XR.InteractionSubsystems.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{C4C62E15-D4F5-772A-7A84-BE9CF4D24E23}</Project>
+      <Project>{2934F4B2-A06E-F86D-712A-74D018DF8B71}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.Player.csproj">
-      <Project>{8FB2C7BB-39AE-2C86-B1DE-ECD290BE115B}</Project>
+      <Project>{508287C9-F4BC-B4FC-71EC-F4AAA21C7773}</Project>
       <Name>Unity.XR.ARCore.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Player.csproj">
-      <Project>{675400E9-CFA2-4F70-7E7C-823BE4B41090}</Project>
+      <Project>{BA2F1237-3834-EE23-3731-80A22A65CF65}</Project>
       <Name>Unity.XR.ARSubsystems.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.Player.csproj">
-      <Project>{4A43C3DB-0E19-589E-5303-8337B923E540}</Project>
+      <Project>{63FF8CDB-E86F-3788-3773-087CE9F54280}</Project>
       <Name>Unity.Tutorials.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{B2D9BD55-F256-C2BD-E5B2-3279033E7E71}</Project>
+      <Project>{08905A3B-665C-02C7-6C7F-5F96087C6B08}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{16A72A90-769B-CBA9-C7AB-7E9E08AB6ACC}</Project>
+      <Project>{8B1BC179-0828-82E2-B58F-A4F8D2A66187}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
-      <Project>{9844137F-321B-C77A-9EB3-E58B7C33EF3B}</Project>
+      <Project>{98F7D537-65DB-5DB2-3829-9FCA3349B6D4}</Project>
       <Name>Unity.Subsystem.Registration.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{80F26D62-D9BF-2D1D-5987-161BFE91849E}</Project>
+      <Project>{041AA70F-96C1-B571-787C-DC6F0A7D7EFE}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj">
-      <Project>{92E3C44D-EF3A-AA61-E4BB-F3E6E07616AF}</Project>
+      <Project>{92FFD7A0-356B-3206-0E4D-F0324A6E1293}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{4B4023B7-9B71-D6D3-3B60-98D5162D1DAF}</Project>
+      <Project>{829A671E-0F3C-8DED-B861-B8220659CB9C}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{71776575-574F-384D-4C17-7F2D196F1BC3}</Project>
+      <Project>{E0A98BE4-B351-54FF-7FD5-123225100D79}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
-      <Project>{BE5208DD-ABE4-4C43-31CF-E21B8CB21598}</Project>
+      <Project>{BA4440F5-3C90-5FEA-18F8-F396F846CE49}</Project>
       <Name>Unity.XR.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj">
-      <Project>{DC258D6F-461F-7008-5682-53BFC56504EF}</Project>
+      <Project>{0B65C240-6D6C-DE88-609E-EA5A6693D19F}</Project>
       <Name>Unity.XR.OpenXR.Features.ConformanceAutomation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{7A2AD10D-E067-D780-6D81-821A73AA27D9}</Project>
+      <Project>{412001A1-2EB6-B360-215D-BC9EC7F5A38C}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
-      <Project>{B556891C-371E-A27F-1556-7478CC262735}</Project>
+      <Project>{2128E7DC-682B-2AEB-7112-2DC0AF7B9118}</Project>
       <Name>Unity.XR.ARFoundation.Player</Name>
     </ProjectReference>
   </ItemGroup>

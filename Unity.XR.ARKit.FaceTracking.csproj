@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3347E386-8AB2-9BEB-D07F-B0DD13FEC29E}</ProjectGuid>
+    <ProjectGuid>{F0ADECAE-5AC7-0022-9EDE-35CD72C64747}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARKit.FaceTracking</AssemblyName>
@@ -730,15 +730,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{18A59E05-5828-0E62-ED28-76732B96031A}</Project>
+      <Project>{9BC8F697-078C-2CAF-5D17-E31601FC2281}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2D94A2E5-0F55-F544-5548-DB5F4582FFFA}</Project>
+      <Project>{DA0CC235-5602-3CD4-3026-AF080C98A34F}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{D6C7BE5E-1F13-3BF3-7679-14C071BD18D6}</Project>
+      <Project>{2F0629BF-55D2-7112-EDE8-19C6B6B1653A}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

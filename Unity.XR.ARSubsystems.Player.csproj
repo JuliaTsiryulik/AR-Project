@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{675400E9-CFA2-4F70-7E7C-823BE4B41090}</ProjectGuid>
+    <ProjectGuid>{BA2F1237-3834-EE23-3731-80A22A65CF65}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARSubsystems</AssemblyName>
@@ -729,15 +729,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
-      <Project>{9844137F-321B-C77A-9EB3-E58B7C33EF3B}</Project>
+      <Project>{98F7D537-65DB-5DB2-3829-9FCA3349B6D4}</Project>
       <Name>Unity.Subsystem.Registration.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{723B739C-BBA4-ED30-DB20-F3A3A417DF74}</Project>
+      <Project>{7701353F-F43B-424A-247A-D0C2DBFC0320}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{967CB614-0223-B390-3F8D-059950CAFB6E}</Project>
+      <Project>{FBD2B513-69E4-2E82-81C1-F2081DC6E42B}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

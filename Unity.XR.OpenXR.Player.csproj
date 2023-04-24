@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BE5208DD-ABE4-4C43-31CF-E21B8CB21598}</ProjectGuid>
+    <ProjectGuid>{BA4440F5-3C90-5FEA-18F8-F396F846CE49}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR</AssemblyName>
@@ -660,15 +660,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{C4C62E15-D4F5-772A-7A84-BE9CF4D24E23}</Project>
+      <Project>{2934F4B2-A06E-F86D-712A-74D018DF8B71}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{723B739C-BBA4-ED30-DB20-F3A3A417DF74}</Project>
+      <Project>{7701353F-F43B-424A-247A-D0C2DBFC0320}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{967CB614-0223-B390-3F8D-059950CAFB6E}</Project>
+      <Project>{FBD2B513-69E4-2E82-81C1-F2081DC6E42B}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

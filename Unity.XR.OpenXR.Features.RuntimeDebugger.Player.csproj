@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{72004EE1-92EE-7A9A-9158-9801CB531001}</ProjectGuid>
+    <ProjectGuid>{B82A736D-C9C7-3D01-F443-7A907919D496}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.RuntimeDebugger</AssemblyName>
@@ -628,11 +628,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
-      <Project>{BE5208DD-ABE4-4C43-31CF-E21B8CB21598}</Project>
+      <Project>{BA4440F5-3C90-5FEA-18F8-F396F846CE49}</Project>
       <Name>Unity.XR.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{967CB614-0223-B390-3F8D-059950CAFB6E}</Project>
+      <Project>{FBD2B513-69E4-2E82-81C1-F2081DC6E42B}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

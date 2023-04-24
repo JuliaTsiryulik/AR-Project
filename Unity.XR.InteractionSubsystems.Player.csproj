@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{61FA9E35-6899-1F15-85E3-3372DD4E041F}</ProjectGuid>
+    <ProjectGuid>{6AFBBF4D-0767-D472-8853-07A5BE8107D5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.InteractionSubsystems</AssemblyName>
@@ -633,11 +633,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
-      <Project>{9844137F-321B-C77A-9EB3-E58B7C33EF3B}</Project>
+      <Project>{98F7D537-65DB-5DB2-3829-9FCA3349B6D4}</Project>
       <Name>Unity.Subsystem.Registration.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{967CB614-0223-B390-3F8D-059950CAFB6E}</Project>
+      <Project>{FBD2B513-69E4-2E82-81C1-F2081DC6E42B}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
