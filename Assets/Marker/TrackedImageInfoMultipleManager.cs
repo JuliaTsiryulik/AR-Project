@@ -6,6 +6,7 @@ using UnityEngine.XR;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.XR.ARFoundation;
 using TMPro;
+using System;
 
 
 [RequireComponent(typeof(ARTrackedImageManager))]
@@ -25,27 +26,27 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
 
     private void Awake()
     {
-        m_TrackedImageManager = GetComponent<ARTrackedImageManager>();
+		m_TrackedImageManager = GetComponent<ARTrackedImageManager>();
 
-        foreach (var arObject in arObjectsToPlace)
-        {
-            //GameObject newARObject = Instantiate(arObject, Vector3.zero, Quaternion.identity);
-            TextMeshProUGUI newARObject = arObject;
-            arObjects.Add(arObject.name, newARObject);
-            newARObject.enabled = false;
-        }
+		foreach (var arObject in arObjectsToPlace)
+		{
+			//GameObject newARObject = Instantiate(arObject, Vector3.zero, Quaternion.identity);
+			TextMeshProUGUI newARObject = arObject;
+			arObjects.Add(arObject.name, newARObject);
+			newARObject.enabled = false;
+		}
 
-        PanelInfo.SetActive(false);
+		PanelInfo.SetActive(false);
     }
 
     void OnEnable()
     {
-        m_TrackedImageManager.trackedImagesChanged += OnTrackedImagesChanged;
+		m_TrackedImageManager.trackedImagesChanged += OnTrackedImagesChanged;
     }
 
     void OnDisable()
     {
-        m_TrackedImageManager.trackedImagesChanged -= OnTrackedImagesChanged;
+		m_TrackedImageManager.trackedImagesChanged -= OnTrackedImagesChanged;
     }
 
     private static bool IsInList(string name, List<ARTrackedImage> imgs)
@@ -64,30 +65,33 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
 
     void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
-        foreach (var arObject in arObjects)
-        {
-            if (IsInList(arObject.Key, eventArgs.added) ||
-                IsInList(arObject.Key, eventArgs.updated))
-            {
-                continue;
-            }
+		
+		foreach (var arObject in arObjects)
+		{
+			if (IsInList(arObject.Key, eventArgs.added) ||
+				IsInList(arObject.Key, eventArgs.updated))
+			{
+				continue;
+			}
 
-            imageTrackedText.text = "Nothing tracked";
+			imageTrackedText.text = "Nothing tracked";
 
-            arObject.Value.enabled = false;
+			arObject.Value.enabled = false;
 
-            PanelInfo.SetActive(false);
-        }
+			PanelInfo.SetActive(false);
+		}
 
-        foreach (ARTrackedImage trackedImage in eventArgs.updated)
-        {
-            UpdateARImage(trackedImage);
-        }
+		foreach (ARTrackedImage trackedImage in eventArgs.updated)
+		{
+			UpdateARImage(trackedImage);
+		}
 
-        foreach (ARTrackedImage trackedImage in eventArgs.added)
-        {
-            UpdateARImage(trackedImage);
-        }
+		foreach (ARTrackedImage trackedImage in eventArgs.added)
+		{
+			UpdateARImage(trackedImage);
+		}
+
+        
     }
 
     private void UpdateARImage(ARTrackedImage trackedImage)
